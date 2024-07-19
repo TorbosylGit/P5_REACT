@@ -1,0 +1,13 @@
+.card {
+    img {
+        width: 25%;
+    }
+
+    h2 {
+        color: $primary-color;
+    }
+
+    @media (min-width: 320px) {
+        margin:10px;
+    }
+}

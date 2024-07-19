@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+}
+
+.card img {
+  width: 25%;
+}
+.card h2 {
+  color: rgb(0, 72, 255);
+}
+@media (min-width: 320px) {
+  .card {
+    margin: 10px;
+  }
+}
+
+.toto {
+  padding: 15px;
+  margin: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
