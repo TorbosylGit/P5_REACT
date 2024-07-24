@@ -1,12 +1,12 @@
-import data from "../data/logement.json";
 import { Link } from "react-router-dom";
-import Card from "../components/Card";
 
 const Error404 = () => {
   return (
-    <>
-  <h1>Page not found</h1>
-    </>
+    <div>
+      <h1>Page not found</h1>
+      <p>Oups! La page que vous demandez n'existe pas.</p>
+      <Link to="/">Go back to Home</Link>
+    </div>
   );
 };
 

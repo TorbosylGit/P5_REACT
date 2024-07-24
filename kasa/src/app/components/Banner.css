@@ -1,0 +1,13 @@
+.banner {
+    max-width: 100%;
+    border-radius: 25px;
+    min-height: 223px;
+    /* padding-inline: 2rem; */
+    margin-top: 45px;
+    background-image: url(https://unsplash.it/1240/223);
+    border: 1px solid red;
+    background-color: red;
+    opacity: 60%;
+    mix-blend-mode: darken;
+
+}

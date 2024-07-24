@@ -16,9 +16,56 @@
   }
 }
 
-.toto {
-  padding: 15px;
-  margin: 25px;
+._Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+}
+
+._Header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+._Header nav ul li {
+  margin-right: 20px;
+}
+
+._Body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+._Section1 {
+  position: relative;
+  text-align: center;
+}
+._Section1 img {
+  width: 100%;
+  height: auto;
+}
+._Section1 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+}
+
+.Gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+._Footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

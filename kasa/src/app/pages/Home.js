@@ -1,20 +1,20 @@
-import data from "../data/logement.json";
+import React from "react";
 import { Link } from "react-router-dom";
+import data from "../data/logement.json";
 import Card from "../components/Card";
+import "../css/style.css"; // Assurez-vous que les styles appropriés sont importés
+import Navbar from "../components/Navbar";
+import Banner from "../components/Banner";
+import "../pages/Home.css";
+
 
 const Home = () => {
   return (
-    <>
-    <div className="toto">
-      {data.map((item, index) => {
-        return (
-          <Link to={`/logement/${item.id}`}>
-            <Card key={index} title={item.title} image={item.cover}/>
-          </Link>
-        );
-      })}
-    </div>
-    </>
+<div>
+  <Navbar/>
+  <Banner/>
+</div>
+
   );
 };
 
