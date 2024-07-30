@@ -14,11 +14,13 @@
     margin-right: 20px;
   }
   
-  ._Body {
+  Body {
     margin: 0;
+    padding: 45px 45px;
+    min-width: 375px;
+    max-width: 1440px;
     font-family: "Montserrat", sans-serif;
   }
-  
   ._Section1 {
     position: relative;
     text-align: center;
@@ -51,4 +53,3 @@
     text-align: center;
     padding: 10px 0;
   }
-  

@@ -5,7 +5,7 @@ const Error404 = () => {
     <div>
       <h1>Page not found</h1>
       <p>Oups! La page que vous demandez n'existe pas.</p>
-      <Link to="/">Go back to Home</Link>
+      <Link to="/">Retournez sur la page d'accueil</Link>
     </div>
   );
 };

@@ -1,9 +1,8 @@
 import React from "react";
-import "./Navbar.css"
 
 function Navbar() {
     return <nav className="navbar">
-        <div className="navbar_logo">
+        <div className="navbar__logo">
             <img src="D_logo.jpg" alt="Logo Kasa" />
         </div>
         <div>Accueil</div>

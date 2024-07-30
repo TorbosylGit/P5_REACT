@@ -1,0 +1,27 @@
+.grid {
+    background-color: #F6F6F6;
+    margin-top: 45px;
+    min-height: 50vh;
+    border-radius: 25px;
+    gap: 50px;
+    padding: 45px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-auto-rows: 1fr; //hauteur auto
+    justify-items: stretch;
+    align-items: stretch;
+}
+/* Small devices (phones, less than 768px) */
+@media (max-width: 910px) {
+    .grid {
+        // flex-direction: column;
+        justify-content: center;
+    }
+}
+@media (max-width: 767.98px) {
+    .grid {
+        justify-content: center;
+        background-color: white;
+        padding: 0;
+    }
+}

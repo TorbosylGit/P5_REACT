@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: black;
+    font-weight: 500;
+    // border: 1px solid red;
+}
+.navbar__logo {
+    margin-right: auto;    
+}
+
+@media (max-width: 767.98px) {
+    .navbar {
+        font-size: 12px;
+    }
+    .navbar img {
+        width: 100%;
+    }
+}
