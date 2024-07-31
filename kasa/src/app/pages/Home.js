@@ -3,20 +3,14 @@ import React from 'react';
 // import data from '../data/logement.json';
 // import Card from '../components/Card';
 import Banner from '../components/Banner';
-import Navbar from '../components/Navbar';
-import ApartmentGrid from "../components/ApartmentGrid";
-import Main from "../components/ApartmentMain";
-import Footer from "../components/Footer";
+import ApartmentGrid from '../components/ApartmentGrid';
+import Main from '../components/ApartmentMain';
 
 const Home = () => {
     return (
         <>
-            <Main>
-                <Navbar />
-                <Banner />
-                <ApartmentGrid />
-            </Main>
-            <Footer />
+            <Banner />
+            <ApartmentGrid />
         </>
     );
 };
