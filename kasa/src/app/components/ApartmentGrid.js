@@ -9,8 +9,13 @@ function ApartmentGrid() {
         <Apartment />
         <Apartment />
         <Apartment />
+        <Apartment />
+        {/* <Apartment />
+        <Apartment />
+        <Apartment />
+        <Apartment /> */}
         {/* <Apartment /> */}
-    </div>
+        </div>
   )
 }
 

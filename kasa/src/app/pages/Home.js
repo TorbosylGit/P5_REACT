@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 // import data from '../data/logement.json';
 // import Card from '../components/Card';
 import Banner from '../components/Banner';
