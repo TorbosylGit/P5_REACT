@@ -4,7 +4,7 @@
     position: relative;
     background-color: $apartment-background-color;
     border-radius: 10px;
-    flex-basis: 340px; // min-width: 340px;
+    flex-basis: 400px; // min-width: 400px;
     display: grid;
     align-items: end;
     justify-content: start;
@@ -23,7 +23,7 @@
     z-index: 1; /* au-dessus du contenu */
 }
 .apartment__subtitle {
-    color: white;
+    color: $apartment-subtitle-color;
     font-weight: 700;
     font-size: 18px;
     margin-inline: 20px;

@@ -1,19 +1,16 @@
 .banner {
     position: relative;
-    max-width: 100%;
+    width: 100%;
     min-height: 223px;
     border-radius: 25px;
     margin-top: 45px;
-    /* background-color: red; */
     background-image: url(../../../public/image_1.jpg);
     background-size: cover;
     background-position: center;
-    /* overflow: hidden; */
     opacity: 60%;
     mix-blend-mode: darken;
     display: grid;
-    place-items: center;
-    // border: 1px solid red;
+    place-items: center; //texte
     box-shadow: 0px 4px 4px 0px #00000040;
 
 }
@@ -26,11 +23,11 @@
     opacity: 0.5;
 }
 .banner__text {
-    color: white; /* Couleur du texte */
+    color: $banner-text-color;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25)); /* Ombre du texte */
     font-size: 48px;
     font-weight: 900;
     text-align: left;
-    padding-left: 25px;
-    -webkit-text-stroke: 1px black;
+    padding-inline: 5%;
+    -webkit-text-stroke: 1px $banner-text-stroke;
 }

@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     gap: 2rem;
-    color: black;
     font-weight: 500;
+    white-space: nowrap;
     // border: 1px solid red;
 }
 .navbar > *:first-child { // enfants directs de Navbar
@@ -11,21 +11,25 @@
 }
 .navbar a {
     text-decoration: none;
-    color: black;
+    color: $navbar-text-color;
 }
 .navbar a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+}
+.navbar a:visited {
+    text-decoration: none;
 }
 .navbar a.active {
+    color: $navbar-text-color;
     text-decoration: underline;
 }
-
 @media (max-width: 767.98px) {
     .navbar {
         font-size: 12px;
+        font-weight: 500;
         text-transform: uppercase;
     }
     .navbar img {
-        width: 100%;
+        height: 100%;
     }
 }
