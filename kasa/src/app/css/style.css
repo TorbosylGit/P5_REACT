@@ -21,11 +21,8 @@
 }
 
 Body {
-  margin: 0;
-  padding: 45px 45px;
-  min-width: 375px;
-  max-width: 1440px;
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden; /* Désactive ascenseur horizontal */
 }
 
 ._Section1 {
@@ -124,7 +121,7 @@ Body {
   font-weight: 500;
 }
 
-.navbar__logo {
+.navbar > *:first-child {
   margin-right: auto;
 }
 
@@ -144,6 +141,7 @@ Body {
 @media (max-width: 767.98px) {
   .navbar {
     font-size: 12px;
+    text-transform: uppercase;
   }
   .navbar img {
     width: 100%;
@@ -185,6 +183,13 @@ Body {
     padding: 0;
   }
 }
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  max-width: 86%;
+}
+
 .apartment {
   position: relative;
   background-color: #FF6060;
@@ -213,8 +218,7 @@ Body {
   color: white;
   font-weight: 700;
   font-size: 18px;
-  width: 50%;
-  margin-inline-start: 20px;
+  margin-inline: 20px;
   margin-block-end: 20px;
 }
 
@@ -232,6 +236,8 @@ Body {
   text-align: center;
   min-height: 200px;
   display: flex;
+  width: 100%;
+  position: relative;
   flex-direction: column;
   justify-content: space-evenly;
 }

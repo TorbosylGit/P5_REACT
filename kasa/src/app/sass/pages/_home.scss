@@ -3,53 +3,50 @@
     justify-content: space-between;
     padding: 20px;
     background-color: #fff;
-  }
-  
-  ._Header nav ul {
+}
+
+._Header nav ul {
     list-style: none;
     display: flex;
-  }
-  
-  ._Header nav ul li {
+}
+
+._Header nav ul li {
     margin-right: 20px;
-  }
-  
-  Body {
-    margin: 0;
-    padding: 45px 45px;
-    min-width: 375px;
-    max-width: 1440px;
-    font-family: "Montserrat", sans-serif;
-  }
-  ._Section1 {
+}
+
+Body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden; /* Désactive ascenseur horizontal */ 
+}
+._Section1 {
     position: relative;
     text-align: center;
-  
+
     img {
-      width: 100%;
-      height: auto;
+        width: 100%;
+        height: auto;
     }
-  
+
     h1 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-size: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 2rem;
     }
-  }
-  
-  .Gallery {
+}
+
+.Gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
-  }
-  
-  ._Footer {
+}
+
+._Footer {
     background-color: #000;
     color: #fff;
     text-align: center;
     padding: 10px 0;
-  }
+}

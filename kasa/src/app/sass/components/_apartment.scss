@@ -1,6 +1,8 @@
+
+
 .apartment {
     position: relative;
-    background-color: #FF6060;
+    background-color: $apartment-background-color;
     border-radius: 10px;
     flex-basis: 340px; // min-width: 340px;
     display: grid;
@@ -24,8 +26,7 @@
     color: white;
     font-weight: 700;
     font-size: 18px;
-    width: 50%;
-    margin-inline-start: 20px;
+    margin-inline: 20px;
     margin-block-end: 20px;
 }
 @media (max-width: 767.98px) {

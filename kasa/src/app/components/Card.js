@@ -1,12 +1,13 @@
 const Card = ({ title, image }) => {
-  return (
-    <>
-        <div className="card">
-            <img src={image} alt={title} />
-            <h2>{title}</h2>
-        </div>
-    </>
-  );
+    return (
+        <>
+            <div className="grid">
+                <div className="apartment">
+                    <div className="apartment__subtitle">{title}</div>
+                </div>
+            </div>
+        </>
+    );
 };
 
 export default Card;

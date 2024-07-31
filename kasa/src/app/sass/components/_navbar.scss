@@ -6,7 +6,7 @@
     font-weight: 500;
     // border: 1px solid red;
 }
-.navbar__logo {
+.navbar > *:first-child { // enfants directs de Navbar
     margin-right: auto;    
 }
 .navbar a {
@@ -23,6 +23,7 @@
 @media (max-width: 767.98px) {
     .navbar {
         font-size: 12px;
+        text-transform: uppercase;
     }
     .navbar img {
         width: 100%;

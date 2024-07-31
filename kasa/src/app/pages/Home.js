@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 // import data from '../data/logement.json';
 // import Card from '../components/Card';
 import Banner from '../components/Banner';
@@ -10,14 +10,14 @@ import Footer from "../components/Footer";
 
 const Home = () => {
     return (
-        <div>
-            <Navbar />
+        <>
             <Main>
+                <Navbar />
                 <Banner />
                 <ApartmentGrid />
             </Main>
             <Footer />
-        </div>
+        </>
     );
 };
 

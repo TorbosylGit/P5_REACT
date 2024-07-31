@@ -13,7 +13,7 @@ const Home = () => {
             {data.map((item) => (
                 <NavLink to={`/logement/${item.id}`}>
                     <Card title={item.title} image={item.cover} />
-                </NavLink>
+                </NavLink>  
             ))}
             <Card />
         </div>
