@@ -9,6 +9,16 @@
 .navbar__logo {
     margin-right: auto;    
 }
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.navbar a.active {
+    text-decoration: underline;
+}
 
 @media (max-width: 767.98px) {
     .navbar {
