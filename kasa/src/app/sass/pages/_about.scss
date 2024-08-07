@@ -1,0 +1,11 @@
+.about__dropdown__container {
+    padding-inline: 90px;
+
+    @media (max-width: 767.98px) {
+    // @media (max-width: 1440px) {
+        padding-inline: 0;
+    }
+}
+.banner__text {
+    display: none;
+}

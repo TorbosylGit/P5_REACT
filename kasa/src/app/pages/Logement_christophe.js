@@ -7,7 +7,7 @@ import Tags from '../components/Tags';
 // Récupérer l'id que le visiteur visite "c67ab8a7"
 // Récupérer les données du logement correspondant à l'id
 // a : Si le logement existe, afficher les informations
-// b : Si le logement n'existe pas, on redirige vers une page d'erreur 404
+// b : Si le logement n'existe pas, on redirige vers une page d'erreur Error404
 
 const Logement = () => {
     const { id } = useParams();

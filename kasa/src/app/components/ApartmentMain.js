@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function ApartmentMain({children}) {
   return <div className='main'>{children}</div>

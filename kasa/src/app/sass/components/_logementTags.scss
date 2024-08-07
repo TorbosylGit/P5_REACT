@@ -1,0 +1,18 @@
+.logement__tags {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 150px));
+    gap: 1em;
+    justify-content: flex-start;
+    margin-top: 22px;
+    margin-bottom: 22px;
+
+    span {
+        font-size: 14px;
+        color: $logement-header-p;
+        font-weight: 700;
+        background-color: $color-primary;
+        border-radius: 10px;
+        padding: 0.25em;
+        text-align: center;
+    }
+}

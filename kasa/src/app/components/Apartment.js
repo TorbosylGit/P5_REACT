@@ -1,10 +1,10 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Apartment() {
   return (
     <div className='apartment'>
-        <NavLink to="/flat">
+        <NavLink to="/accommodation">
             <div className='apartment__subtitle'>Titre de la location</div>
         </NavLink>
             

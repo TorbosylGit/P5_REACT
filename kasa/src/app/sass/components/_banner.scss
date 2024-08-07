@@ -4,31 +4,31 @@
     width: auto;
     min-height: 223px;
     border-radius: 25px;
-    margin-top: 45px;
+    margin-bottom: 45px;
     background-image: url(../../../public/image_1.jpg);
     background-size: cover;
     background-position: center;
     opacity: 60%;
     mix-blend-mode: darken;
     display: grid;
-    place-items: center; //texte
+    place-items: center; // texte
     box-shadow: 0px 4px 4px 0px #00000040;
 
 }
 .banner::before {
     content: "";
     position: absolute;
-    inset: 0; /* =position parent */
+    inset: 0; // = position parent
     border-radius: 25px;
-    /* background-color: rgba(0, 0, 0, 0.5); */
+    //background-color: rgba(0, 0, 0, 0.5);
     opacity: 0.5;
 }
 .banner__text {
     color: $banner-text-color;
-    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25)); /* Ombre du texte */
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25)); // ombre texte
     font-size: 48px;
     font-weight: 900;
     text-align: left;
     padding-inline: 5%;
-    -webkit-text-stroke: 1px $banner-text-stroke;
+    -webkit-text-stroke: 1px $banner-text-stroke; // contour texte
 }

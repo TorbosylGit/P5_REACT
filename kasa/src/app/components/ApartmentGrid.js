@@ -1,22 +1,17 @@
 import React from 'react';
-import Apartment from "./Apartment.js";
+import Apartment from './Apartment.js';
 
 function ApartmentGrid() {
-  return (
-    <div className='grid'>
-        <Apartment />
-        <Apartment />
-        <Apartment />
-        <Apartment />
-        <Apartment />
-        <Apartment />
-        {/* <Apartment />
-        <Apartment />
-        <Apartment />
-        <Apartment /> */}
-        {/* <Apartment /> */}
+    return (
+        <div className="grid">
+            <Apartment />
+            <Apartment />
+            <Apartment />
+            <Apartment />
+            <Apartment />
+            <Apartment />
         </div>
-  )
+    );
 }
 
-export default ApartmentGrid
+export default ApartmentGrid;

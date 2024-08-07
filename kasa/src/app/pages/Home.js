@@ -4,7 +4,6 @@ import React from 'react';
 // import Card from '../components/Card';
 import Banner from '../components/Banner';
 import ApartmentGrid from '../components/ApartmentGrid';
-import Main from '../components/ApartmentMain';
 
 const Home = () => {
     return (

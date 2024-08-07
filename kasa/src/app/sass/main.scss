@@ -1,6 +1,9 @@
 @import "utils/_variables";
 @import "base/_base";
 @import "pages/_home";
+@import "pages/_about";
+@import "pages/_error404";
+@import "pages/_Logement";
 @import "components/_banner";
 @import "components/_card";
 @import "components/_gallery";
@@ -9,4 +12,9 @@
 @import "components/_apartmentGrid";
 @import "components/_apartmentMain";
 @import "components/_apartment";
-@import "components/_footer"
+@import "components/_footer";
+@import "components/_logementCarrousel";
+@import "components/_logementHeader";
+@import "components/_logementTags";
+@import "components/_logementHost";
+@import "components/_dropdown";
