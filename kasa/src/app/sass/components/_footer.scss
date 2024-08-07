@@ -2,7 +2,6 @@
     background-color: $footer-background-color;
     color: $footer-text-color;
     font-size: 24px;
-    padding: 20px;
     text-align: center;
     min-height: 200px;
     display: flex;
@@ -14,6 +13,5 @@
 @media (max-width: 767.98px) {
     .footer {
         font-size: 12px;
-        justify-content: center;
     }
 }

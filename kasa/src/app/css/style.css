@@ -69,11 +69,6 @@ Body {
   display: none;
 }
 
-body {
-  height: 100%;
-  margin: 0;
-}
-
 main {
   display: flex;
   min-height: 100vh;
@@ -313,7 +308,6 @@ main {
   background-color: black;
   color: white;
   font-size: 24px;
-  padding: 20px;
   text-align: center;
   min-height: 200px;
   display: flex;
@@ -326,7 +320,6 @@ main {
 @media (max-width: 767.98px) {
   .footer {
     font-size: 12px;
-    justify-content: center;
   }
 }
 .logement__carrousel img {

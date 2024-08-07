@@ -1,7 +1,7 @@
-body {
-    height: 100%;
-    margin: 0;
-}
+// body {
+//     height: 100%;
+//     margin: 0;
+// }
 main {
     display: flex;
     min-height: 100vh;
@@ -33,12 +33,6 @@ main {
         text-decoration: underline;
     }
 }
-// 404 D: 288px 700 / M:  96px 700
-
-// oups: D: 36px 500 / M: 18px 500
-
-// lien D: 18px 500 / M: 14px 500
-
 @media (max-width: 767.98px) {
     .error404{
         h1 {
