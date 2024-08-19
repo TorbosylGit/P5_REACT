@@ -78,6 +78,7 @@
 }
 @media (max-width: 767.98px) {
     .error404{
+        width: 86%;
         h1 {
             font-size: 96px;
             font-weight: 700;
@@ -85,6 +86,7 @@
         h2 {
             font-size: 18px;
             font-weight: 500;
+            padding-inline: 16%;
         }
         a {
             font-size: 14px;
