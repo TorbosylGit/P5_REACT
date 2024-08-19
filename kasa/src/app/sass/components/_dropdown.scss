@@ -1,0 +1,112 @@
+@import '../utils/variables';
+
+// E1 : style général du dropdown
+.dropdown {
+    margin-bottom: 45px;
+}
+
+// E2 : style du titre
+.dropdown .title {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: $dropdown-background-title-color;
+    color: $dropdown-title-color;
+    cursor: pointer;
+}
+
+// E3 : conteneur du chevron
+.dropdown .title .chevron-container {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.25s ease;
+}
+
+// E4 : animation du chevron
+.dropdown .title .fa-chevron-up, 
+.dropdown .title .fa-chevron-down {
+    font-size: 24px;
+    transition: transform 0.25s ease;
+    transform: rotate(0deg); // initial vers le haut
+}
+
+.dropdown .title .fa-chevron-down {
+    transform: rotate(-90deg); // rotation à gauche
+}
+
+.dropdown.open .fa-chevron-up {
+    transform: rotate(-90deg); // vers le bas
+}
+
+.dropdown.open .fa-chevron-down {
+    transform: rotate(-180deg); // rotation complète
+}
+
+// E5 : style du contenu
+.dropdown .content {
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 0 20px;
+    background-color: $dropdown-background-content-color;
+    color: $dropdown-content-color;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease, padding 0.25s ease;
+}
+
+// E5.1 : style de la liste
+.dropdown .content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.dropdown .content li {
+    margin-bottom: 10px;
+}
+
+// E5.2 : contenu ouvert
+.dropdown.open .content {
+    max-height: 500px;
+    padding: 20px;
+}
+
+// E6 : ajustements pour mobile
+@media (max-width: 767.98px) {
+    .dropdown {
+        margin-bottom: 20px;
+    }
+
+    .dropdown .title {
+        height: 30px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    .dropdown .title .chevron-container {
+        width: 16px;
+        height: 16px;
+    }
+
+    .dropdown .title .fa-chevron-up, 
+    .dropdown .title .fa-chevron-down {
+        font-size: 16px;
+    }
+
+    .dropdown .content {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    .dropdown.open .content {
+        padding: 10px;
+    }
+}

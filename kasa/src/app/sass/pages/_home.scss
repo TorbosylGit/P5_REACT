@@ -1,0 +1,38 @@
+@import '../utils/variables';
+
+.home {
+    // border: 1px solid red;
+    max-width: 78%; // 1240px
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $grid-background-color;
+    padding: 45px;
+    border-radius: 25px;
+    margin: 0 auto;
+
+    .home-container {
+        inset: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+// Media query pour les écrans de moins de 768px
+@media (max-width: 767.98px) {
+    .home {
+        max-width: 85%;
+        padding: 0;
+        background-color: transparent;
+        border-radius: 0;
+
+        .home-container {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 27px;
+            width: auto;
+        }
+    }
+}
