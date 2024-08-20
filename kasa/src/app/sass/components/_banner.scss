@@ -45,9 +45,14 @@
     color: $banner-text-color;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 700;
     text-align: center;
-    -webkit-text-stroke: 1px $banner-text-stroke;
+
+    text-shadow: 
+    1px 1px 0px black, // ombre bas droite
+    -1px -1px 0px black, // ombre haut gauche
+    -1px 1px 0px black, // ombre bas gauche
+    1px -1px 0px black; // ombre haut droite
 
     @media (max-width: 767.98px) {
         font-size: 24px;
