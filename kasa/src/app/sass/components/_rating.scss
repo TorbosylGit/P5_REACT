@@ -1,0 +1,20 @@
+.rating-container {
+    display: flex;
+    width: 165px;
+    font-size: 24px;
+    align-items: center;
+    justify-content: space-between;
+    color: $color-primary;
+    @media (max-width: 767.98px) {
+        width: 100px;
+        font-size: 13px;
+    }
+
+    .on {
+        color: $color-primary;
+    }
+
+    .off {
+        color: $color-gray-star;
+    }
+}

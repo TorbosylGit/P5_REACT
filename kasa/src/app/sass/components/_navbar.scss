@@ -1,10 +1,8 @@
-@import '../utils/variables';
-
 .navbar {
     // border: 1px solid red;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 5%; // 50px
     max-width: 85%;
     height: auto;
     margin-block: 45px;
@@ -20,7 +18,7 @@
 }
 .navbar a {
     text-decoration: none;
-    color: $navbar-text-color;
+    color: $color-black;
 }
 .navbar a:hover {
     text-decoration: none;
@@ -29,12 +27,12 @@
     text-decoration: none;
 }
 .navbar a.active {
-    color: $navbar-text-color;
+    color: $color-black;
     text-decoration: underline;
 }
 @media (max-width: 767.98px) {
     .navbar {
-        gap: 25px;
+        gap: 5%; // 25px
         font-size: 12px;
         font-weight: 500;
         text-transform: uppercase;

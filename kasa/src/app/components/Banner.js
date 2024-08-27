@@ -5,7 +5,7 @@ function Banner() {
     const location = useLocation();
 
     const isHomePage = location.pathname === '/';
-    const bannerImage = isHomePage ? 'assets/images/image_1.jpg' : 'assets/images/image_2.jpg';
+    const bannerImage = isHomePage ? '/assets/images/image_1.jpg' : '/assets/images/image_2.jpg';
     const bannerTitleDisplay = isHomePage ? 'block' : 'none';
 
     return (

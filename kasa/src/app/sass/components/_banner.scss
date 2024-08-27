@@ -1,7 +1,4 @@
-@import '../utils/variables';
-
 .banner {
-    // border: 1px solid red;
     max-width: 85%;
     position: relative;
     min-height: 223px;
@@ -12,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 4px 4px 0px $banner-box-shadow-color;
+    box-shadow: 0px 4px 4px 0px $color-gray-dark;
     overflow: hidden;
     box-sizing: border-box;
     margin-inline: auto;
@@ -37,26 +34,25 @@
     }
 }
 .banner-title {
-    // border: 1px solid red;
     width: 100%;
     padding-inline: 45px;
     position: relative;
     z-index: 2;
-    color: $banner-text-color;
+    color: $color-white;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
     font-size: 48px;
     font-weight: 700;
     text-align: center;
 
     text-shadow: 
-    1px 1px 0px black, // ombre bas droite
-    -1px -1px 0px black, // ombre haut gauche
-    -1px 1px 0px black, // ombre bas gauche
-    1px -1px 0px black; // ombre haut droite
+    1px 1px 0px black, // bas droite
+    -1px -1px 0px black, // haut gauche
+    -1px 1px 0px black, // bas gauche
+    1px -1px 0px black; // haut droite
 
     @media (max-width: 767.98px) {
         font-size: 24px;
-        font-weight: 900;
+        font-weight: 700;
         text-align: left;
         padding-inline: 15px;
     }

@@ -13,15 +13,13 @@ function Home() {
             <Banner />
             <div className="home">
                 <div className="home-container">
-                    {data.map((logement) => (
-                           <NavLink to={`/logement/${logement.id}`}>
-                               <Card
-                            key={logement.id}
-                            title={logement.title}
-                            cover={logement.cover}
-                        />
-                       </NavLink>  
-                    
+                    {data.map((logement, index) => (
+                        <NavLink to={`/logement/${logement.id}`} key={index}>
+                            <Card
+                                title={logement.title}
+                                cover={logement.cover}
+                            />
+                        </NavLink>
                     ))}
                 </div>
             </div>

@@ -1,12 +1,10 @@
-@import '../utils/variables';
-
 .home {
     // border: 1px solid red;
     max-width: 78%; // 1240px
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: $grid-background-color;
+    background-color: $color-gray-light;
     padding: 45px;
     border-radius: 25px;
     margin: 0 auto;
@@ -21,7 +19,7 @@
     }
 }
 
-// Media query pour les écrans de moins de 768px
+// Media query pour les mobiles
 @media (max-width: 767.98px) {
     .home {
         max-width: 85%;
