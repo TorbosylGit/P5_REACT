@@ -20,20 +20,26 @@ function Carousel({ pictures }) {
 
     return (
         <div className="carousel">
-            <i
-                className="fas fa-chevron-up"
-                onClick={handlePrevClick}
-                style={{ transform: 'rotate(270deg)' }}
-            ></i>
+            {totalImages > 1 && (
+                <i
+                    className="fas fa-chevron-up"
+                    onClick={handlePrevClick}
+                    style={{ transform: 'rotate(270deg)' }}
+                ></i>
+            )}
             <img src={currentImage} alt="Logement" className="carousel-image" />
-            <i
-                className="fas fa-chevron-up"
-                onClick={handleNextClick}
-                style={{ transform: 'rotate(90deg)' }}
-            ></i>
-            <div className="carousel-counter">
-                {currentIndex + 1}/{totalImages}
-            </div>
+            {totalImages > 1 && (
+                <i
+                    className="fas fa-chevron-up"
+                    onClick={handleNextClick}
+                    style={{ transform: 'rotate(90deg)' }}
+                ></i>
+            )}
+            {totalImages > 1 && (
+                <div className="carousel-counter">
+                    {currentIndex + 1}/{totalImages}
+                </div>
+            )}
         </div>
     );
 }
