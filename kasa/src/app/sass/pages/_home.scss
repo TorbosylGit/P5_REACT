@@ -1,6 +1,6 @@
 .home {
     // border: 1px solid red;
-    max-width: 78%; // 1240px
+    max-width: 78%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,8 +8,10 @@
     padding: 45px;
     border-radius: 25px;
     margin: 0 auto;
-
+    margin-bottom: 45px;
+    
     .home-container {
+        // border: 1px solid red;
         inset: 0;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -26,7 +28,6 @@
         padding: 0;
         background-color: transparent;
         border-radius: 0;
-
         .home-container {
             grid-template-columns: repeat(1, 1fr);
             gap: 27px;
